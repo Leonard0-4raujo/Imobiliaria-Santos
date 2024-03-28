@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+header{
+    padding: 30px auto;
+    text-align: center;
+    background-color: #afddfd;
+}
+
+.logo{
+    width: 180px;
+}
+
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.menu{
+    margin: 15,auto,25, auto; 
+    padding-bottom: 50px;
+}
+
+.menu a{
+   font-size: 18px;
+   font-weight: bold;
+   padding: 2px;
+   color:#1d1d1d;
+   border: 2px solid #1d1d1d;
+   border-radius: 10px;
+   border-left: 5px solid;
+   border-bottom: 5px solid;
+   border-color: #1d1d1d;
+   text-decoration: none;
+   transition: color 0.3s;
+   margin: 0 10px;
+}
+
+.menu a:hover {
+    color: #f67b7b;
+}
+
+
+.banner{
+    margin-top: 50px;
+    padding-top: 0;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    color:#1d1d1d;
+    margin-bottom: 5px;
+    font-size: 34px;
+}
+h2{
+    color:#1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
+}
+.sobre{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.imagem{
+    width: 450px;
+}
+.texto-negrito{
+    font-weight: bold;
+}
+.texto-azul{
+    color:#1d80c1;
+}
+.texto-branco{
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.fundoAzul{
+    background-color: #1d80c1;
+    padding: auto;
+}
+.serviços h2{
+    font-size: 28px;
+    line-height: 42px;
+}
+.paragrafo{
+    line-height: 42px;
+    font-size: 22px;
+    width: 700px;
+    text-align: center;
+}
+.lista{
+    margin:40px auto;
+    width: 210px;
+    list-style: none;
+}
+.itemLista{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lista-em-negrito {
+    font-weight: bold;
+    list-style-type: disc; 
+    padding: 0; 
+    margin: 0 auto; 
+    max-width: fit-content;
+}
+
+.texto-amarelo{
+    color:#fff81b;
+}
+.fundoPreto{
+    background-color: #1d1d1d;
+    border: 3px solid #1d1d1d;
+    border-radius: 10px;
+    padding: 10px;
+}
+.paragrafoContato{
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.links{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:2px 5px;
+}
+.mapa{
+    width:730px;
+    height: 250px;
+    padding-bottom: 15px;
+}
