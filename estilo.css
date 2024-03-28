@@ -154,3 +154,43 @@ h2{
     height: 250px;
     padding-bottom: 15px;
 }
+
+@media only screen and (max-width: 980px) {
+    p, .paragrafo, .mapa {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .logo, .imagem {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .menu a, .itemLista, .links {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header, section, .banner, .sobre, .fundoAzul, .fundoPreto, .paragrafoContato {
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2, .serviços h2 {
+        font-size: 20px;
+    }
+
+    .lista, .menu {
+        width: auto;
+        margin: 20px;
+    }
+
+    .menu a:hover {
+        color: #1d80c1;
+    }
+}
